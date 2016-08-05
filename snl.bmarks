@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="semanticAnalysis.h" open="0" top="0" tabpos="3">
+		<Cursor position="121" topLine="0" />
+	</File>
+	<File name="scanner.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="4979" topLine="237" />
+	</File>
+	<File name="symbolTable.h" open="0" top="0" tabpos="4">
+		<Cursor position="1540" topLine="53" />
+	</File>
+	<File name="rd.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="31404" topLine="494" />
+		<BrowseMarks positions="2682,3251,4866,7098,7902,11126,22339,13869" />
+	</File>
+	<File name="treeNode.h" open="0" top="0" tabpos="5">
+		<Cursor position="987" topLine="9" />
+		<BrowseMarks positions="882" />
+		<Book_Marks positions="0" />
+	</File>
+	<File name="token.h" open="0" top="0" tabpos="5">
+		<Cursor position="82" topLine="0" />
+	</File>
+	<File name="rd.h" open="0" top="0" tabpos="5">
+		<Cursor position="1879" topLine="45" />
+	</File>
+	<File name="getNewTreeNode.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="3299" topLine="90" />
+		<BrowseMarks positions="3268,3377" />
+	</File>
+	<File name="scanner.h" open="0" top="0" tabpos="2">
+		<Cursor position="81" topLine="0" />
+	</File>
+	<File name="getNewTreeNode.h" open="0" top="0" tabpos="2">
+		<Cursor position="159" topLine="6" />
+	</File>
+	<File name="tree.h" open="0" top="0" tabpos="0">
+		<Cursor position="90" topLine="0" />
+	</File>
+	<File name="List.h" open="0" top="0" tabpos="2">
+		<Cursor position="335" topLine="1" />
+	</File>
+	<File name="listNode.h" open="0" top="0" tabpos="4">
+		<Cursor position="66" topLine="0" />
+	</File>
+	<File name="global.h" open="0" top="0" tabpos="0">
+		<Cursor position="103" topLine="0" />
+	</File>
+	<File name="semanticAnalysis.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="14349" topLine="248" />
+		<BrowseMarks positions="85,3071,3792,5616,7479,9093,10008,10211" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="533" topLine="13" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="interfaceObjectCode.h" open="0" top="0" tabpos="0">
+		<Cursor position="142" topLine="0" />
+	</File>
+	<File name="middleCodeGen.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="3838" topLine="69" />
+		<BrowseMarks positions="835,3080,5011" />
+	</File>
+	<File name="objectCodeGen.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1480" topLine="50" />
+		<BrowseMarks positions="425,31602,33025" />
+	</File>
+	<File name="objectCodeGen.h" open="0" top="0" tabpos="0">
+		<Cursor position="66" topLine="0" />
+		<BrowseMarks positions="0" />
+	</File>
+	<File name="operatorSymbolTable.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1293" topLine="51" />
+		<BrowseMarks positions="1932" />
+		<Book_Marks positions="4011" />
+	</File>
+	<File name="interfaceMidCode.h" open="0" top="0" tabpos="0">
+		<Cursor position="198" topLine="0" />
+	</File>
+	<File name="middleCodeGen.h" open="0" top="0" tabpos="3">
+		<Cursor position="32" topLine="0" />
+	</File>
+	<File name="operatorSymbolTable.h" open="0" top="0" tabpos="4">
+		<Cursor position="317" topLine="0" />
+	</File>
+	<File name="List.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="640" topLine="0" />
+	</File>
+	<File name="printTree.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="12677" topLine="317" />
+	</File>
+</BrowseTracker_layout_file>

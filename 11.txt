@@ -1,0 +1,16 @@
+program P
+type t1=integer;
+     t2=record integer a,b,c;
+	           char ch;
+	end;
+	 t3=array [1..3] of integer;
+var integer aa,bb,cc;
+    t3 aaa,bbb,ccc;
+procedure q(integer num;char ch);
+var integer i,j,k;
+    char t;
+begin
+end
+begin
+end.
+
