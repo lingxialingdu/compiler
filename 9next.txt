@@ -1,2 +1,0 @@
-1            program      program   
-1            id           p         
