@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1465125457 source:d:\c++_code\snl\list.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"List.h"
+
+1468726590 d:\c++_code\snl\list.h
+	"listNode.h"
+
+1468726616 d:\c++_code\snl\listnode.h
+	"token.h"
+
+1468726602 d:\c++_code\snl\token.h
+	<string>
+
+1470193290 source:d:\c++_code\snl\main.cpp
+	"scanner.h"
+	"List.h"
+	"rd.h"
+	"tree.h"
+	"interfaceMidCode.h"
+	"interfaceObjectCode.h"
+	"semanticAnalysis.h"
+	"operatorSymbolTable.h"
+
+1468727633 d:\c++_code\snl\rd.h
+	"treeNode.h"
+	"List.h"
+
+1469349275 d:\c++_code\snl\treenode.h
+	<string>
+
+1470141689 source:d:\c++_code\snl\rd.cpp
+	<string>
+	<iostream>
+	<fstream>
+	"rd.h"
+	"token.h"
+	"treeNode.h"
+	"token.h"
+	"tree.h"
+	"getNewTreeNode.h"
+
+1465608873 d:\c++_code\snl\tree.h
+	"TreeNode.h"
+
+1465033345 source:d:\c++_code\snl\snlc.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"snlc.h"
+
+1465031338 d:\c++_code\snl\snlc.h
+	"List.h"
+
+1468660464 source:d:\c++_code\snl\tree.cpp
+	<iostream>
+	"tree.h"
+
+1465027213 source:d:\c++_code\snl\listnode.cpp
+	"listNode.h"
+	"token.h"
+
+1465031338 d:\c++_code\snl\scanner.h
+	"List.h"
+
+1465126503 source:d:\c++_code\snl\scanner.cpp
+	<string>
+	<iostream>
+	<stdio.h>
+	"scanner.h"
+
+1469348308 source:d:\c++_code\snl\getnewtreenode.cpp
+	<string>
+	"treeNode.h"
+	"getNewTreeNode.h"
+
+1465284927 d:\c++_code\snl\getnewtreenode.h
+	"treeNode.h"
+
+1469519935 source:d:\c++_code\snl\operatorsymboltable.cpp
+	<string>
+	<iostream>
+	<stdio.h>
+	"symbolTable.h"
+	"operatorSymbolTable.h"
+
+1470196726 source:d:\c++_code\snl\semanticanalysis.cpp
+	<string>
+	<iostream>
+	<stdlib.h>
+	"treeNode.h"
+	"symbolTable.h"
+	"operatorSymbolTable.h"
+
+1469451428 d:\c++_code\snl\symboltable.h
+
+1468727509 d:\c++_code\snl\semanticanalysis.h
+	"treeNode.h"
+	"symbolTable.h"
+
+1468826988 d:\c++_code\snl\operatorsymboltable.h
+	"symbolTable.h"
+
+1468659571 d:\c++_code\snl\global.h
+
+1469769950 source:d:\c++_code\snl\printtree.cpp
+	<iostream>
+	"tree.h"
+
+1470195333 source:d:\c++_code\snl\middlecodegen.cpp
+	<string>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"treeNode.h"
+	"symbolTable.h"
+	"middleCodeGen.h"
+
+1469703627 d:\c++_code\snl\middlecodegen.h
+	<string>
+	"symbolTable.h"
+
+1469439075 d:\c++_code\snl\interfacemidcode.h
+	"middleCodeGen.h"
+	"symbolTable.h"
+
+1469854515 source:d:\c++_code\snl\tm.cpp
+	"tm.h"
+	"objectCodeGen.h"
+	<typeinfo>
+
+1469847584 d:\c++_code\snl\tm.h
+
+1470195508 source:d:\c++_code\snl\objectcodegen.cpp
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"objectCodeGen.h"
+	"middleCodeGen.h"
+
+1469852363 d:\c++_code\snl\objectcodegen.h
+	"middleCodeGen.h"
+
+1469947203 d:\c++_code\snl\interfaceobjectcode.h
+	"middleCodeGen.h"
+

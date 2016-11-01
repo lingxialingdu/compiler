@@ -1,0 +1,498 @@
+ProgramRoot 
+ProgramHead 
+program ProgramName 
+bubble DeclarePart 
+TypeDecPart 
+VarDecpart 
+VarDec 
+var VarDecList 
+TypeDef 
+BaseType 
+integer VarIdList 
+i VarIdMore 
+, VarIdList 
+j VarIdMore 
+, VarIdList 
+num VarIdMore 
+; VarDecMore 
+VarDecList 
+TypeDef 
+StructureType 
+ArrayType 
+array [ 1 .. 20 ] of BaseType 
+integer VarIdList 
+a VarIdMore 
+; VarDecMore 
+ProDecpart 
+ProcDec 
+procedure ProcName 
+q ( ParamList 
+ParamDecList 
+Param 
+TypeDef 
+BaseType 
+integer FormList 
+num FidMore 
+ParamMore 
+) ; ProcDecPart 
+DeclarePart 
+TypeDecPart 
+VarDecpart 
+VarDec 
+var VarDecList 
+TypeDef 
+BaseType 
+integer VarIdList 
+i VarIdMore 
+, VarIdList 
+j VarIdMore 
+, VarIdList 
+k VarIdMore 
+; VarDecMore 
+VarDecList 
+TypeDef 
+BaseType 
+integer VarIdList 
+t VarIdMore 
+; VarDecMore 
+ProDecpart 
+ProcBody 
+ProgramBody 
+begin StmList 
+Stm 
+i AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+; StmList 
+Stm 
+LoopStm 
+while RelExp 
+Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+OtherRelE 
+CmpOp 
+< Exp 
+Term 
+Factor 
+Variable 
+num VariMore 
+OtherFactor 
+OtherTerm 
+do StmList 
+Stm 
+j AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+Variable 
+num VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
+- Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+; StmList 
+Stm 
+k AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+; StmList 
+Stm 
+LoopStm 
+while RelExp 
+Exp 
+Term 
+Factor 
+Variable 
+k VariMore 
+OtherFactor 
+OtherTerm 
+OtherRelE 
+CmpOp 
+< Exp 
+Term 
+Factor 
+Variable 
+j VariMore 
+OtherFactor 
+OtherTerm 
+do StmList 
+Stm 
+ConditionalStm 
+if RelExp 
+Exp 
+Term 
+Factor 
+Variable 
+a VariMore 
+[ Exp 
+Term 
+Factor 
+Variable 
+k VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+] OtherFactor 
+OtherTerm 
+OtherRelE 
+CmpOp 
+< Exp 
+Term 
+Factor 
+Variable 
+a VariMore 
+[ Exp 
+Term 
+Factor 
+Variable 
+k VariMore 
+OtherFactor 
+OtherTerm 
+] OtherFactor 
+OtherTerm 
+then StmList 
+Stm 
+t AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+Variable 
+a VariMore 
+[ Exp 
+Term 
+Factor 
+Variable 
+k VariMore 
+OtherFactor 
+OtherTerm 
+] OtherFactor 
+OtherTerm 
+StmMore 
+; StmList 
+Stm 
+a AssCall 
+AssignmentRest 
+VariMore 
+[ Exp 
+Term 
+Factor 
+Variable 
+k VariMore 
+OtherFactor 
+OtherTerm 
+] := Exp 
+Term 
+Factor 
+Variable 
+a VariMore 
+[ Exp 
+Term 
+Factor 
+Variable 
+k VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+] OtherFactor 
+OtherTerm 
+StmMore 
+; StmList 
+Stm 
+a AssCall 
+AssignmentRest 
+VariMore 
+[ Exp 
+Term 
+Factor 
+Variable 
+k VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+] := Exp 
+Term 
+Factor 
+Variable 
+t VariMore 
+OtherFactor 
+OtherTerm 
+StmMore 
+else StmList 
+Stm 
+temp AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+0 OtherFactor 
+OtherTerm 
+StmMore 
+fi StmMore 
+; StmList 
+Stm 
+k AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+Variable 
+k VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+endwh StmMore 
+; StmList 
+Stm 
+i AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+endwh StmMore 
+end ProcDecMore 
+ProgramBody 
+begin StmList 
+Stm 
+InputStm 
+read ( Invar 
+num ) StmMore 
+; StmList 
+Stm 
+i AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+; StmList 
+Stm 
+LoopStm 
+while RelExp 
+Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+OtherRelE 
+CmpOp 
+< Exp 
+Term 
+Factor 
+( Exp 
+Term 
+Factor 
+Variable 
+num VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+) OtherFactor 
+OtherTerm 
+do StmList 
+Stm 
+InputStm 
+read ( Invar 
+j ) StmMore 
+; StmList 
+Stm 
+a AssCall 
+AssignmentRest 
+VariMore 
+[ Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+] := Exp 
+Term 
+Factor 
+Variable 
+j VariMore 
+OtherFactor 
+OtherTerm 
+StmMore 
+; StmList 
+Stm 
+i AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+endwh StmMore 
+; StmList 
+Stm 
+q AssCall 
+CallStmRest 
+( ActParamList 
+Exp 
+Term 
+Factor 
+Variable 
+num VariMore 
+OtherFactor 
+OtherTerm 
+ActParamList 
+) StmMore 
+; StmList 
+Stm 
+i AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+; StmList 
+Stm 
+LoopStm 
+while RelExp 
+Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+OtherRelE 
+CmpOp 
+< Exp 
+Term 
+Factor 
+Variable 
+num VariMore 
+OtherFactor 
+OtherTerm 
+do StmList 
+Stm 
+OutPutStm 
+write ( Exp 
+Term 
+Factor 
+Variable 
+a VariMore 
+[ Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+] OtherFactor 
+OtherTerm 
+) StmMore 
+; StmList 
+Stm 
+i AssCall 
+AssignmentRest 
+VariMore 
+:= Exp 
+Term 
+Factor 
+Variable 
+i VariMore 
+OtherFactor 
+OtherTerm 
+AddOp 
++ Exp 
+Term 
+Factor 
+1 OtherFactor 
+OtherTerm 
+StmMore 
+endwh StmMore 
+end . 
